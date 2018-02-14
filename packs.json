@@ -1,0 +1,82 @@
+{
+    "packs": [
+        {
+            "name": "resolution",
+            "description": "Possible resolution values for closed issues and pull requests",
+            "labels": [
+                {
+                    "name": "resolution/duplicate",
+                    "color": "CCCCCC",
+                    "matches": [
+                        "duplicate",
+                        "duplicates"
+                    ]
+                },
+                {
+                    "name": "resolution/invalid",
+                    "color": "E6E6E6",
+                    "matches": [
+                        "invalid"
+                    ]
+                },
+                {
+                    "name": "resolution/rejected",
+                    "color": "B6B6B6",
+                    "matches": [
+                        "rejected"
+                    ]
+                },
+                {
+                    "name": "resolution/wontfix",
+                    "color": "FFFFFF",
+                    "matches": [
+                        "wontfix",
+                        "won't fix"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "kind",
+            "description": "Classification of issues and pull requests",
+            "labels": [
+                {
+                    "name": "kind/bug",
+                    "color": "FC2929",
+                    "matches": [
+                        "bug"
+                    ]
+                },
+                {
+                    "name": "kind/enhancement",
+                    "color": "84B6EB",
+                    "matches": [
+                        "enhancement"
+                    ]
+                },
+                {
+                    "name": "kind/question",
+                    "color": "CC317C",
+                    "matches": [
+                        "question"
+                    ]
+                },
+                {
+                    "name": "kind/support",
+                    "color": "41B2DB",
+                    "matches": [
+                        "support"
+                    ]
+                },
+                {
+                    "name": "kind/tech-debt",
+                    "color": "D93F0B",
+                    "matches": [
+                        "techdebt",
+                        "tech-debt"
+                    ]
+                }
+            ]
+        }
+    ]
+}
