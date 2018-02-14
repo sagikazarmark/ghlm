@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package ghlm;
+
+option go_package = "ghlm";
+
+message Label {
+    // Name of the label
+    string name = 1;
+
+    // Color code of the label without the leading hashtag.
+    string color = 2;
+
+    // List of alternative label names for this label.
+    repeated string alternatives = 3;
+}
+
+message Pack {
+    // Simple string identifier for the pack.
+    string name = 1;
+
+    // Short description.
+    string description = 2;
+
+    // List of labels in this pack.
+    repeated Label labels = 3;
+}
